@@ -20,15 +20,21 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/obj/structure/window/reinforced/survival_pod/spawner/west,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
 /turf/open/floor/pod,
 /area/shuttle/mining)
 "n" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 4
 	},
-/obj/structure/window/reinforced/survival_pod/spawner/west,
-/obj/structure/window/reinforced/survival_pod/spawner/north,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
 /obj/structure/window/reinforced/survival_pod{
 	dir = 9
 	},
@@ -38,21 +44,29 @@
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/obj/structure/window/reinforced/survival_pod/spawner/east,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
 /turf/open/floor/pod,
 /area/shuttle/mining)
 "u" = (
 /obj/machinery/light/small,
 /obj/structure/ore_box,
-/obj/structure/window/reinforced/survival_pod/spawner/east,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
 /turf/open/floor/pod,
 /area/shuttle/mining)
 "w" = (
 /obj/structure/chair/comfy/shuttle{
 	dir = 8
 	},
-/obj/structure/window/reinforced/survival_pod/spawner/east,
-/obj/structure/window/reinforced/survival_pod/spawner/north,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 4
+	},
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
 /obj/structure/window/reinforced/survival_pod{
 	dir = 5
 	},
@@ -63,12 +77,16 @@
 /area/shuttle/mining)
 "W" = (
 /obj/structure/closet/crate,
-/obj/structure/window/reinforced/survival_pod/spawner/west,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 8
+	},
 /turf/open/floor/pod,
 /area/shuttle/mining)
 "Y" = (
-/obj/machinery/computer/shuttle_flight/mining,
-/obj/structure/window/reinforced/survival_pod/spawner/north,
+/obj/machinery/computer/shuttle/mining,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
 /turf/open/floor/pod,
 /area/shuttle/mining)
 
