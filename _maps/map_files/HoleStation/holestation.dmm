@@ -7894,6 +7894,9 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aLT" = (
@@ -8096,6 +8099,9 @@
 "aMU" = (
 /obj/machinery/door/airlock/external/glass{
 	req_access_txt = "13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
 	},
 /turf/open/floor/plating,
 /area/maintenance/port/central)
@@ -8853,6 +8859,9 @@
 /obj/effect/mapping_helpers/airlock/unres{
 	dir = 4
 	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 4
+	},
 /turf/open/floor/plasteel,
 /area/hallway/secondary/exit)
 "aQh" = (
@@ -9151,14 +9160,14 @@
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aRg" = (
-/obj/machinery/door/airlock/external{
-	name = "Port Shuttle Airlock"
+/obj/machinery/door/airlock/external/glass{
+	req_access_txt = "13"
 	},
-/obj/effect/mapping_helpers/airlock/unres{
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
 	dir = 8
 	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/entry)
+/turf/open/floor/plating,
+/area/maintenance/port/central)
 "aRi" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L10"
@@ -9302,6 +9311,7 @@
 /obj/machinery/camera/autoname{
 	dir = 8
 	},
+/obj/machinery/mineral/equipment_vendor,
 /turf/open/floor/plasteel/mil,
 /area/quartermaster/miningdock)
 "aRQ" = (
@@ -14983,6 +14993,19 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/lab)
+"ohM" = (
+/obj/machinery/door/airlock/external{
+	name = "Brig Shuttle Airlock";
+	req_one_access_txt = "63"
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "oiq" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 5
@@ -15459,6 +15482,18 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/nuke_storage)
+"pHE" = (
+/obj/machinery/door/airlock/external{
+	name = "Departure Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "pJi" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
@@ -42786,9 +42821,9 @@ aSM
 anZ
 aSM
 afc
-aRg
+gjI
 aMh
-aRg
+gjI
 afc
 anZ
 anZ
@@ -43300,9 +43335,9 @@ aUP
 aUP
 afc
 afc
-aRg
+nLT
 aYS
-aRg
+nLT
 aoF
 anZ
 anZ
@@ -48433,7 +48468,7 @@ axK
 aHa
 aHa
 axK
-aMU
+aRg
 axK
 acj
 acj
@@ -57170,17 +57205,17 @@ anZ
 anZ
 anZ
 aLm
-aLS
+ohM
 aNR
-aQg
+pHE
 aLm
 aSM
 anZ
 aSM
 aLm
-aQg
+pHE
 aTs
-aQg
+pHE
 aLm
 anZ
 anZ
