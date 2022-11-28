@@ -3643,6 +3643,13 @@
 /turf/open/floor/plasteel,
 /area/hydroponics)
 "arg" = (
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "arh" = (
@@ -7974,6 +7981,9 @@
 /obj/effect/turf_decal/tile/purple{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 10
+	},
 /turf/open/floor/plasteel,
 /area/science/lab)
 "aMp" = (
@@ -9160,14 +9170,11 @@
 /turf/open/floor/plating,
 /area/quartermaster/storage)
 "aRg" = (
-/obj/machinery/door/airlock/external/glass{
-	req_access_txt = "13"
+/obj/machinery/atmospherics/components/unary/vent_scrubber/on/layer1{
+	dir = 1
 	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plating,
-/area/maintenance/port/central)
+/turf/open/floor/plasteel/white,
+/area/science/genetics)
 "aRi" = (
 /obj/effect/turf_decal/plaque{
 	icon_state = "L10"
@@ -11528,6 +11535,12 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 1
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 6
+	},
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "cSg" = (
@@ -11612,6 +11625,18 @@
 /obj/structure/cable,
 /turf/open/floor/plating,
 /area/maintenance/central)
+"dgK" = (
+/obj/machinery/door/airlock/external{
+	name = "Departure Shuttle Airlock"
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "dhm" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -12631,6 +12656,12 @@
 /obj/effect/turf_decal/stripes/white/line{
 	dir = 4
 	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 5
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 5
+	},
 /turf/open/floor/plasteel,
 /area/science/lab)
 "gpo" = (
@@ -13361,6 +13392,13 @@
 "iNO" = (
 /obj/effect/turf_decal/stripes/corner,
 /obj/effect/turf_decal/stripes/white/corner,
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 10
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 10
+	},
 /turf/open/floor/plasteel,
 /area/science/lab)
 "iPg" = (
@@ -13426,6 +13464,8 @@
 /obj/effect/turf_decal/tile/blue{
 	dir = 4
 	},
+/obj/machinery/power/apc/auto_name/east,
+/obj/structure/cable,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "iXN" = (
@@ -13538,6 +13578,12 @@
 /area/engine/engine_smes)
 "jmw" = (
 /obj/effect/turf_decal/tile/purple{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
 	dir = 4
 	},
 /turf/open/floor/plasteel/showroomfloor,
@@ -14993,19 +15039,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/science/lab)
-"ohM" = (
-/obj/machinery/door/airlock/external{
-	name = "Brig Shuttle Airlock";
-	req_one_access_txt = "63"
-	},
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "oiq" = (
 /obj/machinery/atmospherics/pipe/simple/general/visible{
 	dir = 5
@@ -15482,18 +15515,6 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/nuke_storage)
-"pHE" = (
-/obj/machinery/door/airlock/external{
-	name = "Departure Shuttle Airlock"
-	},
-/obj/effect/mapping_helpers/airlock/unres{
-	dir = 4
-	},
-/obj/effect/mapping_helpers/airlock/cyclelink_helper{
-	dir = 8
-	},
-/turf/open/floor/plasteel,
-/area/hallway/secondary/exit)
 "pJi" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
@@ -15682,6 +15703,15 @@
 	},
 /turf/open/floor/plating,
 /area/maintenance/central/secondary)
+"qrB" = (
+/obj/machinery/door/airlock/external/glass{
+	req_access_txt = "13"
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plating,
+/area/maintenance/port/central)
 "qvG" = (
 /obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
 /obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
@@ -15779,6 +15809,20 @@
 /obj/machinery/atmospherics/components/unary/vent_pump/on/layer3,
 /turf/open/floor/plasteel/dark,
 /area/bridge)
+"qSj" = (
+/obj/effect/turf_decal/tile/purple{
+	dir = 8
+	},
+/obj/effect/turf_decal/stripes{
+	dir = 4
+	},
+/obj/effect/turf_decal/stripes/white/line{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3,
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1,
+/turf/open/floor/plasteel,
+/area/science/lab)
 "qSp" = (
 /obj/structure/toilet{
 	pixel_y = 16
@@ -16168,6 +16212,13 @@
 	name = "Genetics";
 	req_access_txt = "9"
 	},
+/obj/structure/cable,
+/obj/machinery/atmospherics/pipe/simple/supply/hidden/layer3{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/scrubbers/hidden/layer1{
+	dir = 4
+	},
 /turf/open/floor/plasteel/white/side{
 	dir = 8
 	},
@@ -16493,6 +16544,19 @@
 	},
 /turf/open/floor/plasteel,
 /area/security/brig)
+"tcY" = (
+/obj/machinery/door/airlock/external{
+	name = "Brig Shuttle Airlock";
+	req_one_access_txt = "63"
+	},
+/obj/effect/mapping_helpers/airlock/unres{
+	dir = 4
+	},
+/obj/effect/mapping_helpers/airlock/cyclelink_helper{
+	dir = 8
+	},
+/turf/open/floor/plasteel,
+/area/hallway/secondary/exit)
 "tdc" = (
 /obj/machinery/atmospherics/pipe/simple/cyan/visible,
 /obj/structure/cable/layer1,
@@ -17119,6 +17183,7 @@
 	dir = 1
 	},
 /obj/effect/landmark/start/geneticist,
+/obj/machinery/atmospherics/components/unary/vent_pump/on/layer3,
 /turf/open/floor/plasteel/white,
 /area/science/genetics)
 "uNf" = (
@@ -43587,7 +43652,7 @@ aUP
 mCv
 uLw
 cRS
-arg
+aRg
 aEI
 aWj
 aSC
@@ -44358,7 +44423,7 @@ aAw
 abV
 aMo
 iNO
-aqI
+qSj
 goZ
 aqI
 aUA
@@ -48468,7 +48533,7 @@ axK
 aHa
 aHa
 axK
-aRg
+qrB
 axK
 acj
 acj
@@ -57205,17 +57270,17 @@ anZ
 anZ
 anZ
 aLm
-ohM
+tcY
 aNR
-pHE
+dgK
 aLm
 aSM
 anZ
 aSM
 aLm
-pHE
+dgK
 aTs
-pHE
+dgK
 aLm
 anZ
 anZ
