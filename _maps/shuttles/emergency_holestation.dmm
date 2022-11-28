@@ -148,12 +148,6 @@
 	},
 /turf/open/floor/pod/dark,
 /area/shuttle/escape)
-"mB" = (
-/obj/structure/chair/comfy/shuttle{
-	dir = 1
-	},
-/turf/open/floor/carpet/royalblue,
-/area/shuttle/escape)
 "nk" = (
 /obj/machinery/status_display/ai{
 	pixel_x = -32
@@ -300,6 +294,12 @@
 	},
 /turf/open/floor/plating/airless,
 /area/shuttle/escape)
+"yX" = (
+/obj/structure/chair/comfy/shuttle{
+	dir = 1
+	},
+/turf/open/floor/carpet/royalblue,
+/area/shuttle/escape)
 "zn" = (
 /obj/effect/turf_decal/tile/neutral{
 	dir = 1
@@ -320,6 +320,15 @@
 "Bn" = (
 /obj/structure/chair/comfy/shuttle,
 /turf/open/floor/mineral/plastitanium/red/brig,
+/area/shuttle/escape)
+"By" = (
+/obj/structure/window/reinforced/survival_pod,
+/obj/effect/turf_decal/stripes/line,
+/obj/structure/window/reinforced/survival_pod{
+	dir = 1
+	},
+/obj/item/toy/plush/carpplushie,
+/turf/open/floor/fakespace,
 /area/shuttle/escape)
 "Bz" = (
 /obj/effect/turf_decal/tile/neutral,
@@ -744,7 +753,7 @@ Tk
 "}
 (6,1,1) = {"
 fa
-mB
+yX
 OH
 OH
 HX
@@ -787,12 +796,12 @@ CJ
 pT
 lI
 EG
-rm
+By
 Tk
 "}
 (8,1,1) = {"
 fa
-mB
+yX
 OH
 OH
 Kn
